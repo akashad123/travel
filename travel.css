@@ -1,0 +1,293 @@
+*{
+    margin: 0px;
+    
+    
+}
+
+.hotelhead h1{
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+.card-img-top{
+    height: 100%;
+    width: 100%;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.hotelcard{
+    margin-top: 2rem;
+     
+}
+ 
+.package{
+    margin-top: 2rem;
+}
+
+.packagehead{
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+.card{
+    margin-top: 3rem;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.carlower{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.navbar-nav{
+    gap: 6rem;
+}
+
+.servicehead{
+    text-align: center;
+    margin-top: 4rem;
+    font-weight: bold;
+}
+
+.service-item{
+    text-align: center;
+}
+
+ .fa-solid{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+} 
+
+.contacthead{
+    text-align: center;
+    padding-top: 3rem;
+    font-weight: bold;
+}
+
+.contact{
+    height: 105vh;
+    background-image: url('./contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3rem;
+}
+
+.forms form{
+    margin-left: 20rem;
+} 
+  
+.form-item input{
+    width: 700px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 250px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    outline: none;
+}
+
+.form-item1 input{
+  width: 700px;
+  height: 40px;
+  margin-top: 50px;
+  margin-left: 250px;
+  padding: 10px;
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 7px;
+  outline: none;
+}
+
+.button button{
+  width: 125px;
+  height: 40px;
+  margin-left: 520px;
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 3px;
+}
+
+.comment textarea{
+  margin-left: 250px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 7px;
+  background-color: whitesmoke;
+  padding: 10px;
+  outline: none;
+}
+
+.footer{
+    background: #333;
+    color: #efefef;
+    border: 2px solid white;
+}
+
+.footer div h4{
+    padding-top: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;  
+}
+
+.footer div a{
+  text-decoration: none;
+  margin-left: 13rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #efefef;
+  display: block;
+}
+
+.footer div a:hover{
+    color: #9d9b9b;
+}
+
+.footform input{
+    width: 400px;
+    height: 35px;
+    border-radius: 4px;
+    text-align: center;
+    outline: none;
+    border: none;
+    margin-left: 2.3rem;
+    margin-top: 2rem;
+}
+ 
+.footform button{
+    background: transparent;
+    border: 2px solid white;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 11rem;
+    margin-top: 3rem;
+    padding: 10px;
+}
+
+.footform button:hover{
+    color: #333;
+    background-color: white;
+}
+
+.footer p{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.social-icons{
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.social-icons i{
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+.social-icons i:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.footset{
+    background-color: #2c2c2c;
+    text-align: center;
+    font-family: 'Acme', sans-serif; 
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+.hotelcard {
+    width: 400px;
+    height: 325px;
+    perspective: 1000px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin-left: 2.7rem;
+  }
+  
+  .card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .hotelcard:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+
+.card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #fff; 
+    overflow: hidden;
+}
+
+  .card-back {
+    position: absolute;
+    backface-visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: white;
+    overflow: hidden;
+    padding: 10px;
+    text-align: justify;
+}
+
+.stars{
+  text-align: center;
+  margin-top: -2.5rem;
+}
+
+  .card-front img{
+    border-radius: 5px;
+  }
+  
+  .card-front {
+    transform: rotateY(0deg);
+  }
+  
+  .card-back {
+    transform: rotateY(180deg);
+  }
+
+  .btn{
+   margin-left: 8.8rem
+   
+  }
